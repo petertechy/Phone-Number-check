@@ -1,0 +1,22 @@
+@keyframes slideInFromLeft {
+  from {
+    transform: translateX(-100%);
+    box-shadow: 1px 1px 3px 3px rgba(128, 128, 128, 0.818);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+/* Apply animation to the div */
+.anime {
+  animation: slideInFromLeft 2s ease forwards;
+}
+@media screen and (width < 480px){
+    .hi{
+        font-size: 16px;
+    }
+    .btn{
+        font-size: 13px;
+    }
+}
